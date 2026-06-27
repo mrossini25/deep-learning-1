@@ -1,0 +1,18 @@
+# compile with:
+# python setup_cython.py build_ext --inplace
+
+
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+import numpy
+
+extensions = [
+  Extension('im2col_cython', ['im2col_cython.pyx'],
+            include_dirs = [numpy.get_include()]
+  ),
+]
+
+setup(
+    ext_modules = cythonize(extensions),
+)
