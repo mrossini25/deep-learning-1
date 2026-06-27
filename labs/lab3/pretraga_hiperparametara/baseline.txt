@@ -1,0 +1,95 @@
+----------BASELINE BEZ PREDNAUČENE VEKTORSKE REPREZENTACIJE---------------
+Epoch 1 / 5: Validation loss: 0.6784, accuracy: 55.299%, F1: 0.2946
+Epoch 2 / 5: Validation loss: 0.6299, accuracy: 65.953%, F1: 0.6791
+Epoch 3 / 5: Validation loss: 0.5941, accuracy: 68.644%, F1: 0.6932
+Epoch 4 / 5: Validation loss: 0.5742, accuracy: 70.181%, F1: 0.6838
+Epoch 5 / 5: Validation loss: 0.5632, accuracy: 70.895%, F1: 0.6985
+
+Test loss: 0.5854, accuracy: 71.560%, F1: 0.6976
+
+
+
+-----------------OPTIMIZACIJA HIPERPARAMETARA--------------------------------
+IZABRANI HIPERPARAMETRI: 
+(*) Minimalna frekvencija riječi min_freq
+(**) Stopa učenja
+Iznos na koji se podrezuju vrijednosti gradijenata
+
+
+Config: {'min_freq': 1, 'lr': 0.0001, 'grad_clip': 0.25, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6069, accuracy: 68.259%, F1: 0.5806
+Epoch 2 / 5: Validation loss: 0.4989, accuracy: 78.089%, F1: 0.7886
+Epoch 3 / 5: Validation loss: 0.4744, accuracy: 78.254%, F1: 0.7795
+Epoch 4 / 5: Validation loss: 0.4743, accuracy: 77.814%, F1: 0.7612
+Epoch 5 / 5: Validation loss: 0.4624, accuracy: 78.968%, F1: 0.7832
+
+Test loss: 0.4771, accuracy: 77.294%, F1: 0.7614
+
+
+-----------------------------------------------------------------------------------------------------------
+min_freq
+-------------------------
+Config: {'min_freq': 5, 'lr': 0.0001, 'grad_clip': 0.25, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6638, accuracy: 54.640%, F1: 0.2133
+Epoch 2 / 5: Validation loss: 0.5773, accuracy: 73.256%, F1: 0.7619
+Epoch 3 / 5: Validation loss: 0.5259, accuracy: 76.442%, F1: 0.7755
+Epoch 4 / 5: Validation loss: 0.5068, accuracy: 76.881%, F1: 0.7757
+Epoch 5 / 5: Validation loss: 0.5054, accuracy: 76.496%, F1: 0.7482
+
+Test loss: 0.5081, accuracy: 75.803%, F1: 0.7346
+
+
+Config: {'min_freq': 20, 'lr': 0.0001, 'grad_clip': 0.25, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6928, accuracy: 49.973%, F1: 0.0022
+Epoch 2 / 5: Validation loss: 0.6638, accuracy: 64.580%, F1: 0.6697
+Epoch 3 / 5: Validation loss: 0.6373, accuracy: 63.866%, F1: 0.5825
+Epoch 4 / 5: Validation loss: 0.6123, accuracy: 68.644%, F1: 0.6871
+Epoch 5 / 5: Validation loss: 0.5957, accuracy: 69.303%, F1: 0.6889
+
+Test loss: 0.5927, accuracy: 70.642%, F1: 0.6967
+
+
+-----------------------------------------------------------------------------------------------
+STOPA UČENJA
+--------------------------------
+Config: {'min_freq': 1, 'lr': 0.001, 'grad_clip': 0.25, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.4602, accuracy: 78.638%, F1: 0.7859
+Epoch 2 / 5: Validation loss: 0.4648, accuracy: 77.540%, F1: 0.7925
+Epoch 3 / 5: Validation loss: 0.4493, accuracy: 78.858%, F1: 0.7918
+Epoch 4 / 5: Validation loss: 0.4488, accuracy: 77.979%, F1: 0.7913
+Epoch 5 / 5: Validation loss: 0.4459, accuracy: 78.418%, F1: 0.7924
+
+Test loss: 0.4570, accuracy: 77.867%, F1: 0.7834
+
+
+Config: {'min_freq': 1, 'lr': 0.00001, 'grad_clip': 0.25, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6920, accuracy: 50.192%, F1: 0.0109
+Epoch 2 / 5: Validation loss: 0.6901, accuracy: 49.973%, F1: 0.0022
+Epoch 3 / 5: Validation loss: 0.6868, accuracy: 50.686%, F1: 0.0507
+Epoch 4 / 5: Validation loss: 0.6814, accuracy: 54.146%, F1: 0.1854
+Epoch 5 / 5: Validation loss: 0.6733, accuracy: 58.979%, F1: 0.3643
+
+Test loss: 0.6721, accuracy: 59.404%, F1: 0.3540
+
+
+--------------------------------------------------------------------
+grad_clip
+--------------------------------------
+Config: {'min_freq': 1, 'lr': 0.0001, 'grad_clip': 1.0, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6136, accuracy: 65.568%, F1: 0.5105
+Epoch 2 / 5: Validation loss: 0.5068, accuracy: 77.705%, F1: 0.7939
+Epoch 3 / 5: Validation loss: 0.4759, accuracy: 78.748%, F1: 0.7842
+Epoch 4 / 5: Validation loss: 0.4716, accuracy: 78.803%, F1: 0.7756
+Epoch 5 / 5: Validation loss: 0.4632, accuracy: 78.693%, F1: 0.7849
+
+Test loss: 0.4764, accuracy: 77.867%, F1: 0.7727
+
+
+Config: {'min_freq': 1, 'lr': 0.0001, 'grad_clip': 0, 'hidden_size': 150, 'num_layers': 2, 'dropout': 0}
+Epoch 1 / 5: Validation loss: 0.6931, accuracy: 51.949%, F1: 0.6039
+Epoch 2 / 5: Validation loss: 0.6931, accuracy: 51.949%, F1: 0.6039
+Epoch 3 / 5: Validation loss: 0.6931, accuracy: 51.949%, F1: 0.6039
+Epoch 4 / 5: Validation loss: 0.6931, accuracy: 51.949%, F1: 0.6039
+Epoch 5 / 5: Validation loss: 0.6931, accuracy: 51.949%, F1: 0.6039
+
+Test loss: 0.6931, accuracy: 51.032%, F1: 0.5945

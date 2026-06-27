@@ -1,0 +1,178 @@
+config: 'max_size': -1,
+    'min_freq': 1,
+    'seed': 13052026,
+    'lr': 1e-4,
+    'train_batch_size': 10,
+    'grad_clip': 0.25,
+    'val_batch_size': 32,
+    'test_batch_size': 32,
+    'epochs': 5
+-----------------------------------------------------------------------------
+seed = 13052026
+
+Epoch 0:
+ Validation loss: 0.5982, accuracy: 72.378%, F1: 0.7186
+ Confusion matrix:
+[[782 127]
+ [376 536]]
+Epoch 1:
+ Validation loss: 0.4858, accuracy: 76.606%, F1: 0.7608
+ Confusion matrix:
+[[562 347]
+ [ 79 833]]
+Epoch 2:
+ Validation loss: 0.4519, accuracy: 79.352%, F1: 0.7923
+ Confusion matrix:
+[[653 256]
+ [120 792]]
+Epoch 3:
+ Validation loss: 0.4836, accuracy: 77.265%, F1: 0.7687
+ Confusion matrix:
+[[585 324]
+ [ 90 822]]
+Epoch 4:
+ Validation loss: 0.4522, accuracy: 78.309%, F1: 0.7807
+ Confusion matrix:
+[[618 291]
+ [104 808]]
+
+Test loss: 0.4691, accuracy: 78.555%, F1: 0.7839
+Test confusion matrix:
+[[304 140]
+ [ 47 381]]
+
+----------------------------------------------------------------------
+seed = 1052026
+
+Epoch 0:
+ Validation loss: 0.5973, accuracy: 69.962%, F1: 0.6996
+ Confusion matrix:
+[[633 276]
+ [271 641]]
+Epoch 1:
+ Validation loss: 0.6374, accuracy: 70.126%, F1: 0.6899
+ Confusion matrix:
+[[813  96]
+ [448 464]]
+Epoch 2:
+ Validation loss: 0.6149, accuracy: 73.092%, F1: 0.7273
+ Confusion matrix:
+[[771 138]
+ [352 560]]
+Epoch 3:
+ Validation loss: 0.6483, accuracy: 73.806%, F1: 0.7326
+ Confusion matrix:
+[[802 107]
+ [370 542]]
+Epoch 4:
+ Validation loss: 0.6962, accuracy: 72.872%, F1: 0.7175
+ Confusion matrix:
+[[845  64]
+ [430 482]]
+
+Test loss: 0.6936, accuracy: 73.853%, F1: 0.7279
+Test confusion matrix:
+[[408  36]
+ [192 236]]
+
+----------------------------------------------------------------------
+seed = 1052003
+
+Epoch 0:
+ Validation loss: 0.5368, accuracy: 75.728%, F1: 0.7561
+ Confusion matrix:
+[[625 284]
+ [158 754]]
+Epoch 1:
+ Validation loss: 0.5294, accuracy: 73.366%, F1: 0.7209
+ Confusion matrix:
+[[473 436]
+ [ 49 863]]
+Epoch 2:
+ Validation loss: 0.4499, accuracy: 78.693%, F1: 0.7860
+ Confusion matrix:
+[[657 252]
+ [136 776]]
+Epoch 3:
+ Validation loss: 0.4770, accuracy: 78.473%, F1: 0.7830
+ Confusion matrix:
+[[634 275]
+ [117 795]]
+Epoch 4:
+ Validation loss: 0.4415, accuracy: 79.242%, F1: 0.7923
+ Confusion matrix:
+[[702 207]
+ [171 741]]
+
+Test loss: 0.4633, accuracy: 80.161%, F1: 0.8015
+Test confusion matrix:
+[[342 102]
+ [ 71 357]]
+
+----------------------------------------------------------------------
+seed = 453682
+
+Epoch 0:
+ Validation loss: 0.5385, accuracy: 75.673%, F1: 0.7562
+ Confusion matrix:
+[[648 261]
+ [182 730]]
+Epoch 1:
+ Validation loss: 0.5118, accuracy: 76.332%, F1: 0.7633
+ Confusion matrix:
+[[696 213]
+ [218 694]]
+Epoch 2:
+ Validation loss: 0.5754, accuracy: 75.618%, F1: 0.7545
+ Confusion matrix:
+[[763 146]
+ [298 614]]
+Epoch 3:
+ Validation loss: 0.5233, accuracy: 76.606%, F1: 0.7653
+ Confusion matrix:
+[[749 160]
+ [266 646]]
+Epoch 4:
+ Validation loss: 0.4854, accuracy: 78.309%, F1: 0.7830
+ Confusion matrix:
+[[726 183]
+ [212 700]]
+
+Test loss: 0.5014, accuracy: 78.555%, F1: 0.7855
+Test confusion matrix:
+[[351  93]
+ [ 94 334]]
+
+-----------------------------------------------------------------
+seed = 42
+
+Epoch 0:
+ Validation loss: 0.5877, accuracy: 68.204%, F1: 0.6543
+ Confusion matrix:
+[[363 546]
+ [ 33 879]]
+Epoch 1:
+ Validation loss: 0.4642, accuracy: 77.869%, F1: 0.7779
+ Confusion matrix:
+[[655 254]
+ [149 763]]
+Epoch 2:
+ Validation loss: 0.4519, accuracy: 79.352%, F1: 0.7935
+ Confusion matrix:
+[[737 172]
+ [204 708]]
+Epoch 3:
+ Validation loss: 0.4598, accuracy: 80.231%, F1: 0.8023
+ Confusion matrix:
+[[722 187]
+ [173 739]]
+Epoch 4:
+ Validation loss: 0.4684, accuracy: 80.505%, F1: 0.8049
+ Confusion matrix:
+[[761 148]
+ [207 705]]
+
+Test loss: 0.4842, accuracy: 80.619%, F1: 0.8060
+Test confusion matrix:
+[[366  78]
+ [ 91 337]]

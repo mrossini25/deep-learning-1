@@ -1,0 +1,193 @@
+Config: {'hidden_size': 150, 'num_layers': 2, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6937, accuracy: 49.918%, F1: 0.0108
+Epoch 2 / 5: Validation loss: 0.5780, accuracy: 73.037%, F1: 0.6776
+Epoch 3 / 5: Validation loss: 0.5239, accuracy: 78.144%, F1: 0.7863
+Epoch 4 / 5: Validation loss: 0.5037, accuracy: 77.814%, F1: 0.7828
+Epoch 5 / 5: Validation loss: 0.5149, accuracy: 77.595%, F1: 0.7726
+
+Test loss: 0.5127, accuracy: 77.982%, F1: 0.7767
+
+
+Config: {**'hidden_size': 100**, 'num_layers': 2, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6926, accuracy: 50.467%, F1: 0.0545
+Epoch 2 / 5: Validation loss: 0.5385, accuracy: 76.002%, F1: 0.7654
+Epoch 3 / 5: Validation loss: 0.5333, accuracy: 76.332%, F1: 0.7829
+Epoch 4 / 5: Validation loss: 0.5188, accuracy: 77.485%, F1: 0.7904
+Epoch 5 / 5: Validation loss: 0.5238, accuracy: 76.222%, F1: 0.7847
+
+Test loss: 0.5194, accuracy: 76.606%, F1: 0.7879
+
+
+Config: {**'hidden_size': 300**, 'num_layers': 2, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.5499, accuracy: 75.069%, F1: 0.7307
+Epoch 2 / 5: Validation loss: 0.5324, accuracy: 76.606%, F1: 0.7428
+Epoch 3 / 5: Validation loss: 0.4893, accuracy: 77.650%, F1: 0.7857
+Epoch 4 / 5: Validation loss: 0.5464, accuracy: 75.453%, F1: 0.7208
+Epoch 5 / 5: Validation loss: 0.4972, accuracy: 76.826%, F1: 0.7613
+
+Test loss: 0.4952, accuracy: 76.720%, F1: 0.7637
+
+
+Config: {'hidden_size': 150, **'num_layers': 1**, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6925, accuracy: 50.357%, F1: 0.0259
+Epoch 2 / 5: Validation loss: 0.5394, accuracy: 74.794%, F1: 0.7733
+Epoch 3 / 5: Validation loss: 0.4984, accuracy: 77.430%, F1: 0.7760
+Epoch 4 / 5: Validation loss: 0.5628, accuracy: 76.771%, F1: 0.7475
+Epoch 5 / 5: Validation loss: 0.5666, accuracy: 73.696%, F1: 0.7798
+
+Test loss: 0.5490, accuracy: 74.771%, F1: 0.7839
+
+
+Config: {'hidden_size': 150, **'num_layers': 4**, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6472, accuracy: 66.063%, F1: 0.5449
+Epoch 2 / 5: Validation loss: 0.5063, accuracy: 76.716%, F1: 0.7610
+Epoch 3 / 5: Validation loss: 0.5114, accuracy: 76.442%, F1: 0.7845
+Epoch 4 / 5: Validation loss: 0.5335, accuracy: 75.618%, F1: 0.7838
+Epoch 5 / 5: Validation loss: 0.5313, accuracy: 77.485%, F1: 0.7835
+
+Test loss: 0.5254, accuracy: 78.211%, F1: 0.7884 -------------------------------> BEST
+
+
+Config: {'hidden_size': 150, 'num_layers': 2, **'dropout': 0.25**, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6941, accuracy: 49.808%, F1: 0.0065
+Epoch 2 / 5: Validation loss: 0.5610, accuracy: 72.433%, F1: 0.7722
+Epoch 3 / 5: Validation loss: 0.5127, accuracy: 77.210%, F1: 0.7822
+Epoch 4 / 5: Validation loss: 0.5232, accuracy: 75.343%, F1: 0.7450
+Epoch 5 / 5: Validation loss: 0.6307, accuracy: 76.112%, F1: 0.7719
+
+Test loss: 0.6247, accuracy: 76.491%, F1: 0.7735
+
+
+Config: {'hidden_size': 150, 'num_layers': 2, **'dropout': 0.5**, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6945, accuracy: 49.808%, F1: 0.0065
+Epoch 2 / 5: Validation loss: 0.5473, accuracy: 73.202%, F1: 0.7747
+Epoch 3 / 5: Validation loss: 0.5411, accuracy: 76.277%, F1: 0.7343
+Epoch 4 / 5: Validation loss: 0.5558, accuracy: 76.112%, F1: 0.7378
+Epoch 5 / 5: Validation loss: 0.6059, accuracy: 76.991%, F1: 0.7537
+
+Test loss: 0.5988, accuracy: 77.867%, F1: 0.7584
+
+
+Config: {'hidden_size': 150, 'num_layers': 2, 'dropout': 0.0, **'bidirectional': True**, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.5129, accuracy: 75.069%, F1: 0.7285
+Epoch 2 / 5: Validation loss: 0.5167, accuracy: 74.629%, F1: 0.7282
+Epoch 3 / 5: Validation loss: 0.5491, accuracy: 72.103%, F1: 0.6693
+Epoch 4 / 5: Validation loss: 0.4709, accuracy: 77.759%, F1: 0.7851
+Epoch 5 / 5: Validation loss: 0.4979, accuracy: 75.618%, F1: 0.7354
+
+Test loss: 0.5028, accuracy: 75.917%, F1: 0.7348
+
+
+Config: {'hidden_size': 150, **'num_layers': 4**, **'dropout': 0.25**, **'bidirectional': True**, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.5228, accuracy: 74.574%, F1: 0.7641
+Epoch 2 / 5: Validation loss: 0.5100, accuracy: 76.112%, F1: 0.7549
+Epoch 3 / 5: Validation loss: 0.5301, accuracy: 75.673%, F1: 0.7570
+Epoch 4 / 5: Validation loss: 0.4663, accuracy: 78.364%, F1: 0.7870
+Epoch 5 / 5: Validation loss: 0.4797, accuracy: 78.638%, F1: 0.7903
+
+Test loss: 0.4997, accuracy: 77.523%, F1: 0.7768
+
+
+Config: {**'hidden_size': 100**, **'num_layers': 1**, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.6932, accuracy: 49.973%, F1: 0.0022
+Epoch 2 / 5: Validation loss: 0.5781, accuracy: 72.323%, F1: 0.6919
+Epoch 3 / 5: Validation loss: 0.5322, accuracy: 76.551%, F1: 0.7723
+Epoch 4 / 5: Validation loss: 0.5127, accuracy: 77.375%, F1: 0.7756
+Epoch 5 / 5: Validation loss: 0.5303, accuracy: 76.387%, F1: 0.7837
+
+Test loss: 0.5438, accuracy: 75.803%, F1: 0.7729
+
+
+Config: {**'hidden_size': 100**, **'num_layers': 1**, 'dropout': 0, **'bidirectional': True**, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.5771, accuracy: 69.467%, F1: 0.6808
+Epoch 2 / 5: Validation loss: 0.5015, accuracy: 75.563%, F1: 0.7719
+Epoch 3 / 5: Validation loss: 0.4806, accuracy: 77.759%, F1: 0.7858
+Epoch 4 / 5: Validation loss: 0.4886, accuracy: 76.881%, F1: 0.7579
+Epoch 5 / 5: Validation loss: 0.4705, accuracy: 78.583%, F1: 0.7914
+
+Test loss: 0.4678, accuracy: 77.408%, F1: 0.7779
+
+
+Config: {**'hidden_size': 500**, 'num_layers': 2, **'dropout': 0.25**, **'bidirectional': True**, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.4972, accuracy: 75.563%, F1: 0.7776
+Epoch 2 / 5: Validation loss: 0.4781, accuracy: 77.430%, F1: 0.7964
+Epoch 3 / 5: Validation loss: 0.4905, accuracy: 77.210%, F1: 0.7691
+Epoch 4 / 5: Validation loss: 0.4947, accuracy: 75.783%, F1: 0.7532
+Epoch 5 / 5: Validation loss: 0.5629, accuracy: 76.661%, F1: 0.7899
+
+Test loss: 0.6125, accuracy: 76.491%, F1: 0.7853
+
+
+Config: {'hidden_size': 150, **'num_layers': 4**, 'dropout': 0, 'bidirectional': True, 'model_type': 'vanilla_rnn'}
+Epoch 1 / 5: Validation loss: 0.5282, accuracy: 73.147%, F1: 0.7573
+Epoch 2 / 5: Validation loss: 0.4888, accuracy: 76.991%, F1: 0.7585
+Epoch 3 / 5: Validation loss: 0.4758, accuracy: 78.528%, F1: 0.7717
+Epoch 4 / 5: Validation loss: 0.4966, accuracy: 77.100%, F1: 0.7847
+Epoch 5 / 5: Validation loss: 0.4870, accuracy: 75.947%, F1: 0.7808
+
+Test loss: 0.5145, accuracy: 76.376%, F1: 0.7804
+
+
+
+
+-----ISPROBAVANJE NAJBOLJEG REZULTATA NA 5 SEEDOVA----------
+seed = 48482
+Epoch 1 / 5: Validation loss: 0.6906, accuracy: 51.016%, F1: 0.0953
+Epoch 2 / 5: Validation loss: 0.5807, accuracy: 72.048%, F1: 0.7129
+Epoch 3 / 5: Validation loss: 0.5841, accuracy: 72.652%, F1: 0.6903
+Epoch 4 / 5: Validation loss: 0.6118, accuracy: 73.641%, F1: 0.6871
+Epoch 5 / 5: Validation loss: 0.5187, accuracy: 76.771%, F1: 0.7622
+
+Test loss: 0.5194, accuracy: 77.408%, F1: 0.7658
+
+
+seed = 91308
+Epoch 1 / 5: Validation loss: 0.5915, accuracy: 69.632%, F1: 0.7298
+Epoch 2 / 5: Validation loss: 0.5951, accuracy: 72.762%, F1: 0.7654
+Epoch 3 / 5: Validation loss: 0.5981, accuracy: 72.213%, F1: 0.7677
+Epoch 4 / 5: Validation loss: 0.5880, accuracy: 73.366%, F1: 0.7658
+Epoch 5 / 5: Validation loss: 0.5606, accuracy: 74.574%, F1: 0.7629
+
+Test loss: 0.5670, accuracy: 73.509%, F1: 0.7545
+
+
+seed = 6915
+Epoch 1 / 5: Validation loss: 0.5579, accuracy: 74.739%, F1: 0.7655
+Epoch 2 / 5: Validation loss: 0.5339, accuracy: 77.430%, F1: 0.7794
+Epoch 3 / 5: Validation loss: 0.5061, accuracy: 77.210%, F1: 0.7796
+Epoch 4 / 5: Validation loss: 0.5425, accuracy: 76.606%, F1: 0.7874
+Epoch 5 / 5: Validation loss: 0.5255, accuracy: 74.629%, F1: 0.7755
+
+Test loss: 0.5174, accuracy: 76.147%, F1: 0.7873
+
+
+seed = 65688
+Epoch 1 / 5: Validation loss: 0.6749, accuracy: 59.088%, F1: 0.3572
+Epoch 2 / 5: Validation loss: 0.6201, accuracy: 70.126%, F1: 0.7532
+Epoch 3 / 5: Validation loss: 0.5874, accuracy: 73.256%, F1: 0.7547
+Epoch 4 / 5: Validation loss: 0.6074, accuracy: 74.245%, F1: 0.7322
+Epoch 5 / 5: Validation loss: 0.6465, accuracy: 67.545%, F1: 0.7456
+
+Test loss: 0.6338, accuracy: 68.234%, F1: 0.7480
+
+
+seed = 45030
+Epoch 1 / 5: Validation loss: 0.5772, accuracy: 72.707%, F1: 0.6828
+Epoch 2 / 5: Validation loss: 0.5191, accuracy: 77.155%, F1: 0.7783
+Epoch 3 / 5: Validation loss: 0.6386, accuracy: 73.366%, F1: 0.6832
+Epoch 4 / 5: Validation loss: 0.5257, accuracy: 77.155%, F1: 0.7930
+Epoch 5 / 5: Validation loss: 0.5143, accuracy: 76.222%, F1: 0.7845
+
+Test loss: 0.5017, accuracy: 77.294%, F1: 0.7898
+
+
+-------------------NAJBOLJI MODEL BEZ PREDNAUČENE VEKTORSKE REPREZENTACIJE---------------------
+'hidden_size': 150, 'num_layers': 4, 'dropout': 0, 'bidirectional': False, 'model_type': 'vanilla_rnn'
+
+Epoch 1 / 5: Validation loss: 0.6946, accuracy: 49.863%, F1: 0.0256
+Epoch 2 / 5: Validation loss: 0.6927, accuracy: 50.686%, F1: 0.6487
+Epoch 3 / 5: Validation loss: 0.6947, accuracy: 55.958%, F1: 0.3715
+Epoch 4 / 5: Validation loss: 0.6623, accuracy: 62.932%, F1: 0.6004
+Epoch 5 / 5: Validation loss: 0.6556, accuracy: 63.427%, F1: 0.6017
+
+Test loss: 0.6372, accuracy: 66.399%, F1: 0.6160
